@@ -540,3 +540,61 @@
 .dark .search-icon {
   color: #ffffff; /* White for dark mode */
 }
+
+/* Responsive styles for screens below 430px */
+@media (max-width: 435px) {
+  .container-center {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    height: 50%;
+    padding: 1rem;
+  }
+
+  .flex-area {
+    width: 100%;
+    padding-top: 1rem;
+  }
+
+  .new-note-form {
+    max-width: 90%;
+    padding: 1rem;
+  }
+
+  .button-container {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .search-container {
+    flex-direction: row;
+    align-items: stretch;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  
+  .search-input {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    width: 100%;
+  }
+ .search-input {
+    flex: none;
+    width: calc(100% - 40px); /* Adjust based on the size of the SearchIcon */
+  }
+  .notes-list {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .new-note-form .button-container {
+    flex-direction: column;
+    align-items: stretch;
+    margin-top: 1rem;
+  }
+
+  .fixed.bottom-8.right-8 {
+    right: 1rem;
+    bottom: 1rem;
+  }
+}

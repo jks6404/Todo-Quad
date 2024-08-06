@@ -89,7 +89,7 @@ function App() {
         <div className={`flex-area ${darkMode ? 'dark' : ''}  w-full `}>
           <Header />
           <div className="flex items-center mb-4">
-            <div className="search-container">
+            <div className="search-container ">
               <input
                 type="text"
                 placeholder="Search note..."
